@@ -1,0 +1,54 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body * {
+  font-family: 'Roboto';
+}
+
+body  {
+  background-image:linear-gradient(150deg, green , yellow , blue);
+  height: 100vh;
+}
+
+header{
+  padding: 75px 0;
+  text-align: center;
+}
+
+
+h1{
+
+}
+.card{
+  display:inline-block;
+  width: 354px;
+  height:508px ;
+  background-image:url(./assets/elements.svg);
+}
+
+.card > img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 4px solid yellow;
+  border-radius: 50%;
+  margin-top: 115px;
+}
+
+.info {
+  margin-top: 110px;
+  color: aliceblue;
+  margin-left:70px ;
+  text-align: left;
+}
+
+.info h1{
+  font-size: 18px;
+  line-height: 140%;
+}
